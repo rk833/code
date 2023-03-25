@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Form</title>
+</head>
+<body>
+	<h1>Contact Us</h1>
+	<form action="" method="POST">
+		<table>
+			<tr>
+				<td><label for="name">Name:</label></td>
+				<td><input type="text" name="name" id="name"></td>
+			</tr>
+            <tr>
+                <td><label for="Address">address:</label></td>
+				<td><input type="text" name="address" id="address"></td>
+            </tr>
+			<tr>
+				<td><label for="email">Email:</label></td>
+				<td><input type="email" name="email" id="email"></td>
+			</tr>
+		    <tr>
+				<td><label for="gender">Gender:</label></td>
+				<td>
+					<input type="radio" name="gender" id="male" value="male">
+					<label for="male">Male</label>
+					<input type="radio" name="gender" id="female" value="female">
+					<label for="female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="hobbies">hobbies:</label></td>
+				<td>
+					<input type="checkbox" name="hobbies" id="sports" value="sports">
+					<label for="sports">Sports</label>
+					<input type="checkbox" name="hobbies" id="movies" value="movies">
+					<label for="movies">movies</label>
+					<input type="checkbox" name="hobbies" id="travelling" value="travelling">
+					<label for="travelling">travelling</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="country">Country:</label></td>
+				<td>
+					<select name="country" id="country">
+                        <option value="Nepal">Nepal</option>
+						<option value="USA">United States</option>
+						<option value="UK">United Kingdom</option>
+						<option value="Canada">Canada</option>
+						<option value="India">India</option>
+						<option value="Australia">Australia</option>
+					</select>
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea name="message" id="message" rows="5"></textarea></td>
+                    </tr>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
